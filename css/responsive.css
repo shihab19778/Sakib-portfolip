@@ -1,0 +1,644 @@
+/* =========================
+   Tablet Responsive
+   Max-width: 991px
+========================= */
+
+@media (max-width: 991px) {
+
+    /* Header */
+
+    #headerPart {
+        padding: 20px 0;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        margin-left: 0;
+        padding: 12px 0;
+    }
+
+    .headerbtn {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+
+    /* Banner */
+
+    .bannerPartContent {
+        padding: 60px 0 30px;
+        text-align: center;
+    }
+
+    .bannerPartContent h1 {
+        width: 100%;
+        font-size: 42px;
+        line-height: 1.4;
+    }
+
+    .bannerbtn {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .bannerbtn .contactbtn,
+    .bannerbtn .downloadbtn {
+        padding: 15px 25px;
+        margin-right: 0;
+    }
+
+    .bannerimg {
+        padding: 20px 0 40px;
+    }
+
+
+    /* Counter */
+
+    #CounterPart {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    #CounterPart .col-lg-3 {
+        margin-bottom: 30px;
+    }
+
+
+    /* Services */
+
+    .serviceContent h1 {
+        font-size: 36px;
+        line-height: 1.4;
+    }
+
+    .serviceContent p {
+        width: 100%;
+    }
+
+    .serviceCard {
+        flex-wrap: wrap;
+    }
+
+    .serviceCard .col-lg-4 {
+        width: 50%;
+    }
+
+    .service {
+        width: 100%;
+        height: auto;
+        min-height: 260px;
+        margin-top: 25px;
+        padding: 25px;
+    }
+
+
+    /* About */
+
+    .aboutContent {
+        padding-left: 0;
+        flex-direction: column;
+    }
+
+    .hero-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 36px;
+    }
+
+    .hero-content p {
+        max-width: 100%;
+    }
+
+    .hero-image {
+        width: 100%;
+        min-height: 300px;
+    }
+
+    .triangle {
+        left: 30%;
+    }
+
+    .line-pattern {
+        right: 10%;
+    }
+
+
+    /* Clients */
+
+    .clientsection {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .clientlogo {
+        text-align: center;
+    }
+
+    .clientlogo img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    /* Portfolio */
+
+    #portfolioPart {
+        padding: 60px 0;
+    }
+
+    .porfolioContent {
+        flex-direction: column;
+        /* align-items: flex-start; */
+        /* align-items: center; */
+        gap: 20px;
+      /* padding-left: 30px; */
+    }
+
+     .porfolioContent h5{
+      padding-left: 30%;
+        width: 100%;
+        /* border: 1px solid black; */
+     }
+
+    .porfolioContent h2 {
+        width: 100%;
+        font-size: 40px;
+        line-height: 1.4;
+        align-items: center;
+        letter-spacing: 0.5%;
+        font-weight: 600;
+    }
+
+    .porfolioContent p {
+        width: 368px;
+        height: 97px;
+        font-size: 15px;
+        line-height: 32px;
+        letter-spacing: 0.5px;
+        padding-left: 11%;
+    }
+
+    .portfolio-card {
+        height: auto;
+        overflow: hidden;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+    }
+
+    .card-image {
+        width: 100%;
+        height: 350px;
+        position: relative;
+    }
+
+    .card-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .card-content {
+        position: static;
+        width: 100%;
+        padding: 25px 30px;
+        background-color: #FFFFFF;
+    }
+
+    .card-content h5 {
+        font-size: 18px;
+        line-height: 1.5;
+        color: #111111;
+        margin-bottom: 10px;
+    }
+
+    .card-content p {
+        font-size: 15px;
+        color: #888888;
+        margin: 0;
+        background-color: #FFFFFF;
+    }
+
+
+    /* Testimony */
+
+    #TestimonyPart {
+        padding: 70px 0;
+    }
+
+    .testimony-card {
+        padding: 25px;
+        min-height: auto;
+    }
+
+
+    /* CTA */
+
+    #CtaPart {
+        padding: 70px 0;
+    }
+
+    #CtaPart h1 {
+        font-size: 38px;
+    }
+
+
+    /* Footer */
+
+    #FooterPart {
+        padding: 60px 0 30px;
+    }
+
+    .footer-top > div {
+        margin-bottom: 30px;
+    }
+
+    .footer-menu {
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+}
+
+
+/* =========================
+   Mobile Responsive
+   Max-width: 767px
+========================= */
+
+@media (max-width: 767px) {
+
+    /* Header */
+
+    #headerPart {
+        padding: 15px 0;
+    }
+
+    .navbar-brand {
+        max-width: 180px;
+    }
+
+
+    /* Banner */
+
+    .bannerPartContent {
+        padding: 40px 0 20px;
+    }
+
+    .bannerPartContent h1 {
+        font-size: 32px;
+        line-height: 1.4;
+        margin: 20px 0;
+    }
+
+    .bannerPartContent h4 {
+        font-size: 14px;
+    }
+
+    .bannerbtn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bannerbtn .contactbtn,
+    .bannerbtn .downloadbtn {
+        width: 220px;
+        text-align: center;
+        padding: 15px 10px;
+    }
+
+    .bannerimg {
+        padding: 20px 0 30px;
+    }
+
+
+    /* Counter */
+
+    #CounterPart {
+        padding: 40px 0;
+    }
+
+    #CounterPart .col-lg-3 {
+        margin-bottom: 25px;
+    }
+
+
+    /* Services */
+
+    .serviceContent h1 {
+        font-size: 28px;
+        line-height: 1.4;
+    }
+
+    .serviceContent p {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .serviceCard .col-lg-4 {
+        width: 100%;
+    }
+
+    .service {
+        min-height: auto;
+        padding: 30px 20px;
+    }
+
+
+    /* About */
+
+    .hero-section {
+        padding: 50px 0;
+    }
+
+    .hero-content h1 {
+        font-size: 30px;
+    }
+
+    .hero-image {
+        min-height: 250px;
+    }
+
+    .line-pattern {
+        width: 200px;
+        height: 200px;
+    }
+
+
+    /* Clients */
+
+    .clientsection {
+        gap: 25px;
+    }
+
+    .clientlogo {
+        width: 40%;
+    }
+
+    .clientlogo img {
+        max-width: 100%;
+    }
+
+
+    /* Portfolio */
+
+    #portfolioPart {
+        padding: 50px 0;
+    }
+
+    .porfolioContent h2 {
+       width: 100%;
+        font-size: 40px;
+        line-height: 1.4;
+        align-items: center;
+        letter-spacing: 0.5%;
+        font-weight: 600;
+
+    }
+
+    .porfolioContent p {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .portfolio-card {
+        height: auto;
+    }
+
+    .card-image {
+        height: 280px;
+    }
+
+    .card-content {
+        padding: 20px;
+    }
+
+    .card-content h5 {
+        font-size: 17px;
+    }
+
+    .card-content p {
+        font-size: 14px;
+    }
+
+
+    /* Testimony */
+
+    .testimonyContent h1 {
+        font-size: 30px;
+    }
+
+    .testimony-text {
+        font-size: 14px;
+        line-height: 1.8;
+        margin-bottom: 35px;
+    }
+
+    .testimony-card {
+        padding: 25px 20px;
+    }
+
+    .review {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .client-img {
+        width: 50px;
+        height: 50px;
+        margin-right: 12px;
+    }
+
+    .client-name h5 {
+        font-size: 16px;
+    }
+
+    .message-icon img {
+        max-width: 30px;
+    }
+
+
+    /* CTA */
+
+    #CtaPart {
+        padding: 60px 15px;
+    }
+
+    #CtaPart h1 {
+        font-size: 28px;
+        line-height: 1.5;
+    }
+
+    .cta-btn {
+        padding: 16px 25px;
+    }
+
+
+    /* Footer */
+
+    .logo h2 {
+        font-size: 26px;
+    }
+
+    .footer-description {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .contact-info p {
+        font-size: 14px;
+        flex-wrap: wrap;
+    }
+
+    .social-icons {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .footer-menu {
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .footer-menu li a {
+        font-size: 12px;
+    }
+
+    .copyright {
+        text-align: center;
+        margin-top: 25px;
+    }
+}
+
+
+/* =========================
+   Small Mobile Responsive
+   Max-width: 575px
+========================= */
+
+@media (max-width: 575px) {
+
+    /* Common */
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+    /* Header */
+
+    .navbar-brand {
+        max-width: 150px;
+    }
+
+
+    /* Banner */
+
+    .bannerPartContent h1 {
+        font-size: 27px;
+    }
+
+    .bannerimg {
+        padding: 15px 0 30px;
+    }
+
+
+    /* Counter */
+
+    #CounterPart .col-lg-3 {
+        margin-bottom: 25px;
+    }
+
+
+    /* Services */
+
+    .serviceContent h1 {
+        font-size: 25px;
+    }
+
+    .service {
+        margin-top: 20px;
+    }
+
+
+    /* About */
+
+    .hero-content h1 {
+        font-size: 26px;
+    }
+
+    .hero-content h6 {
+        font-size: 10px;
+    }
+
+    .contact-btn {
+        padding: 14px 22px;
+    }
+
+
+    /* Portfolio */
+
+    .porfolioContent h2 {
+        font-size: 27px;
+    }
+
+    .card-image {
+        height: 220px;
+    }
+
+    .card-content {
+        padding: 15px 20px;
+    }
+
+    .card-content h5 {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .card-content p {
+        font-size: 13px;
+    }
+
+
+    /* Testimony */
+
+    .testimonyContent h1 {
+        font-size: 26px;
+    }
+
+    .stars {
+        font-size: 22px;
+    }
+
+    .review {
+        font-size: 14px;
+    }
+
+
+    /* CTA */
+
+    #CtaPart h1 {
+        font-size: 25px;
+    }
+
+
+    /* Footer */
+
+    .logo h2 {
+        font-size: 22px;
+    }
+
+    .footer-menu {
+        gap: 15px;
+    }
+}
